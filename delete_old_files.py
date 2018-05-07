@@ -6,7 +6,7 @@ import subprocess
 # Remove arquivos com mais de 24 horas 
 now = time.time()
 
-folder = '/mail_logs/tmp'
+folder = '/mydir'
 
 files = [os.path.join(folder, filename) for filename in os.listdir(folder)]
 for filename in files:
